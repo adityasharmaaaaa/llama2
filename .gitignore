@@ -1,0 +1,45 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Llama 2 model files
+llama-2-7b/
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.gguf
+
+# Tokenizer / model artifacts
+tokenizer.model
+tokenizer_checklist.chk
+
+# Download script backup / temporary files
+*.save
+*.tmp
+*.bak
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
